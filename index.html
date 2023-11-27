@@ -6,7 +6,91 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app ">
+      <div class="card text-center">
+        <h1 class="card-title mb-2">Warsaw</h1>
+        <h6 class="card-subtitle  mb-2 text-body-secondary">weather name</h6>
+        <div class="card-weather">1 C</div>
+        <div class="card-week">
+          <div class="card-week p-4 border-top border-bottom mb-2 row">
+            <div class="col-2">
+              <strong class="d-block mb-2">Now</strong>
+              <img id="wrapper-icon-hour-now" src="" class="" alt="" />
+              <strong class="d-block" id="wrapper-hour-now">1</strong>
+            </div>
+            <div class="col-2">
+              <strong class="d-block mb-2" id="wrapper-time2">Now</strong>
+              <img id="wrapper-icon-hour-hour2" src="" class="" alt="" />
+              <strong class="d-block" id="wrapper-hour-hour2">1</strong>
+            </div>
+            <div class="col-2">
+              <strong class="d-block mb-2" id="wrapper-time3">Now</strong>
+              <img id="wrapper-icon-hour-hour3" src="" class="" alt="" />
+              <strong class="d-block" id="wrapper-hour-hour3">1</strong>
+            </div>
+            <div class="col-2">
+              <strong class="d-block mb-2" id="wrapper-time4">Now</strong>
+              <img id="wrapper-icon-hour-hour4" src="" class="" alt="" />
+              <strong class="d-block" id="wrapper-hour-hour4">1</strong>
+            </div>
+            <div class="col-2">
+              <strong class="d-block mb-2" id="wrapper-time5">Now</strong>
+              <img id="wrapper-icon-hour-hour5" src="" class="" alt="" />
+              <strong class="d-block" id="wrapper-hour-hour5">1</strong>
+            </div>
+            <div class="col-2">
+              <strong class="d-block mb-2" id="wrapper-time6">Now</strong>
+              <img id="wrapper-icon-hour-hour6" src="" class="" alt="" />
+              <strong class="d-block" id="wrapper-hour-hour6">1</strong>
+            </div>
+          </div>
+        </div>
+        <div class="card-future px-5">
+          <div class="row align-items-center">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <strong>Today</strong>
+              </div>
+
+              <div class="col-lg-2 text-center">
+                <img id="wrapper-icon-today" src="" class="w-100" alt="" />
+              </div>
+
+              <div class="col-lg-4 text-end">
+                <span id="wrapper-forecast-temp-today">23</span>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <strong>Tomorrow</strong>
+              </div>
+
+              <div class="col-lg-2 text-center">
+                <img id="wrapper-icon-tomorrow" src="" class="w-100" alt="" />
+              </div>
+
+              <div class="col-lg-4 text-end">
+                <span id="wrapper-forecast-temp-tomorrow">28</span>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <strong>Day after tomorrow</strong>
+              </div>
+
+              <div class="col-lg-2 text-center">
+                <img id="wrapper-icon-dAT" src="" class="w-100" alt="" />
+              </div>
+
+              <div class="col-lg-4 text-end">
+                <span id="wrapper-forecast-temp-dAT">28</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
