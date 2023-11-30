@@ -2,11 +2,25 @@
 @import "bootstrap/scss/bootstrap";
 
 .card{
-    width: 50%;
+    width: 45%;
     margin: 10rem auto;
     padding: 5rem;
 
     &-weather{
         font-size: 5rem;
     }
+
+    @media (max-width: 1300px) {
+        margin: 0 auto;
+        width: 90%;
+        padding: 0;
+    }
+    @media (max-width: 500px) {
+        width:95%;
+    }
+}
+
+.card-week{
+    display: flex;
+    flex-wrap: wrap;
 }
